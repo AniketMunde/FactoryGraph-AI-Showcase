@@ -135,9 +135,4 @@ The complete product is source-checkout based. The Python wheel contains Python 
 not Next.js, data or a full deployment. The sdist includes JSON contracts/configuration;
 see [the deliberate packaging scope](PACKAGING.md).
 
-## License and publication
 
-**No project code license has been selected.** Review [licensing scope](docs/LICENSING.md)
-and [third-party notices](THIRD_PARTY_NOTICES.md). Data/model terms are separate.
-Datasets, source-derived saved cases, weights, credentials, databases, raw logs and
-private screenshots are excluded. No hosted public service is provided by this source checkout.
