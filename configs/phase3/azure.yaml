@@ -1,0 +1,17 @@
+run_dir: artifacts/phase3/azure
+model_dir: data/models/phase3/chronos-2
+telemetry_path: data/raw/azure/PdM_telemetry.csv
+channels: [volt, rotate, pressure, vibration]
+context_length: 168
+horizon: 24
+origin_stride_hours: 24
+batch_origins: 16
+device: cuda
+seed: 42
+cpu_threads: 4
+max_seconds: 1800
+validation_start: '2015-09-01T00:00Z'
+test_start: '2015-10-01T00:00Z'
+test_end: '2016-01-01T00:00Z'
+scale_end: '2015-08-01T00:00Z'
+quantiles: [0.1, 0.5, 0.9]

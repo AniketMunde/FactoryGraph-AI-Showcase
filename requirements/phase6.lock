@@ -1,0 +1,2 @@
+# Phase 6 reuses the accepted Phase 4 CPU/Neo4j environment without changing packages.
+-r phase4.lock

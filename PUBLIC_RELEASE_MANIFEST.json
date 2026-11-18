@@ -1,0 +1,1648 @@
+{
+  "schema_version": "factorygraph-public-source-manifest-v2",
+  "scope": "Public source and data-free explanatory media; not a private experiment record",
+  "file_count": 273,
+  "files": [
+    {
+      "path": ".dockerignore",
+      "bytes": 395,
+      "sha256": "f1f3b18197843073ec0d8fd9386e0dc68da0e79c93c739cc35334f5e53d83e5b",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 155,
+      "sha256": "ad2552a8c512d756ba62ba9de75edcff8c63bf87262051182cc2a6bc265acc8d",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 347,
+      "sha256": "e92670f1ca5eb9bae60850de32235bd78240f49fad108f2f1722afe9bc734c8d",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": ".python-version",
+      "bytes": 5,
+      "sha256": "7b55f8e67b5623c4bef3fa691288da9437d79d3aba156de48d481db32ac7d16d",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 1077,
+      "sha256": "2893ad00fb985bbea5fcfcb36cfb1d7d474d392b6c0fe358f738166fb25cbe0d",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "MANIFEST.in",
+      "bytes": 245,
+      "sha256": "9978d3930e42af6edd2bb24b2268cdf50cb68b1d786c680faaf1506121358e1e",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "PACKAGING.md",
+      "bytes": 697,
+      "sha256": "e202569d8c7fd8f0277cb5179c76f202a3b6b81998e1e57ba8141d8cf1b6efcf",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "PUBLIC_REPRODUCIBILITY.md",
+      "bytes": 5949,
+      "sha256": "8c6f26403fd56179598bc272f33330cb597e0060df457157987d1b70a36dc121",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8183,
+      "sha256": "a784f10f527fe42e2eb4fc6114f4b9f5fc7c92459202517893a0d6380226462e",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 1142,
+      "sha256": "7dec903a738c67f4d7be183c671907b1a368fb6efbe4f6491ed073375a38ba93",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1326,
+      "sha256": "1787dfadf0e33411cb132eab6727186eb4090df7ef1199052ee908753cf17dda",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "apps/factorygraph_console/.gitignore",
+      "bytes": 119,
+      "sha256": "5ddaa6c2f461a894406c425a09c80d63ef0bd7c37305f2f5aa3d52bd1518a44c",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "apps/factorygraph_console/.prettierignore",
+      "bytes": 51,
+      "sha256": "d3b914d8c11756b4a172b19814a7c7b91f183a3e7e3a339656c669f95c19e100",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "apps/factorygraph_console/.prettierrc.json",
+      "bytes": 75,
+      "sha256": "eff45928d656c98095ad9f3f8fbdfa99fa202446abc51eb02153f3b28d12f335",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "apps/factorygraph_console/README.md",
+      "bytes": 715,
+      "sha256": "54d8e60068f85bfc6c203e0db1c31d36b5c372858f4afa646e2aff20bea4dc58",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "apps/factorygraph_console/app/api/data/[resource]/route.ts",
+      "bytes": 479,
+      "sha256": "c0cf4d8a1d57bc8331a8cbd59949ff936f75cd911e0a1e3d034324f817a8e66c",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "apps/factorygraph_console/app/api/session/route.ts",
+      "bytes": 884,
+      "sha256": "23167630db7eb71ac9f6b3b75b8d8157471cea80857fea9b5cf3ec3219a5048a",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "apps/factorygraph_console/app/globals.css",
+      "bytes": 46102,
+      "sha256": "e50f6539728c818e46d0f396b056be70b1495bb5ad10741cdb892c7d2d2a0ab5",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "apps/factorygraph_console/app/layout.tsx",
+      "bytes": 405,
+      "sha256": "a349e3a0511c52d99e3e0d93851c31081df84770d0cef7c502ae49aae2eca466",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "apps/factorygraph_console/app/page.tsx",
+      "bytes": 105,
+      "sha256": "5ea7b975254cef98bcd6ac9025699af9f9875adfe5af937ab3cb7f272edcbf79",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "apps/factorygraph_console/components/asset-table.tsx",
+      "bytes": 8650,
+      "sha256": "085cf399c16481ec511736d88f7889538ece08e479128dec4d4d0d5da23abb77",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "apps/factorygraph_console/components/console.tsx",
+      "bytes": 52414,
+      "sha256": "2246d513ddaa19e291b71af4b78fd13d139c1f1913ab6f77baa0118e13d31bc5",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "apps/factorygraph_console/components/evidence-graph.tsx",
+      "bytes": 7256,
+      "sha256": "cf4b7adabe36f9510444fc1dfcf995fab09803829a14ca527c40aaecbd961aaa",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "apps/factorygraph_console/components/login.tsx",
+      "bytes": 3879,
+      "sha256": "91f8a9db7cefe7860866d0096d051baa78ad2b9b0f47d0e2ccc81aaf3b45704b",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "apps/factorygraph_console/components/report.tsx",
+      "bytes": 10966,
+      "sha256": "04e58aa3543a5c8a60945ce7c5835d721c1a96bdb471faf2223a1d49f6ce56ef",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "apps/factorygraph_console/components/sensors.tsx",
+      "bytes": 7606,
+      "sha256": "5cbcdcb5fec4e71e7b5211ed3df90250a12678a58a8699c47a229f4ec8493c61",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "apps/factorygraph_console/components/ui.tsx",
+      "bytes": 5566,
+      "sha256": "413390c69f87e2ea2654e9edc1f101b3f0b8bb10ad3f8160c886e6fd5056ee2e",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "apps/factorygraph_console/lib/case-schema.json",
+      "bytes": 10489,
+      "sha256": "993ceffca65b00228a266a83b43fc627bbe79c4824abe33ceb6e1faa88e84155",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "apps/factorygraph_console/lib/client.ts",
+      "bytes": 1120,
+      "sha256": "63b567be94fb2d7bec907da5832f4a7c372f5c7ce2ad2f87316237464dd7af3c",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "apps/factorygraph_console/lib/contracts.ts",
+      "bytes": 5070,
+      "sha256": "e6e60913d18cf33ef25a988f0f0fa3fab53005ccf8614244a41dc7ce6faa9c39",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "apps/factorygraph_console/lib/presentation.ts",
+      "bytes": 1606,
+      "sha256": "a019acbce37e707a97b7c55f15e12af72b342caa30ff050406149858022cca4d",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "apps/factorygraph_console/lib/server/backend.ts",
+      "bytes": 7541,
+      "sha256": "0a93199371023e3349589ebc2e1b67492bcbb984830bbc60aede6e63053d9abf",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "apps/factorygraph_console/lib/server/security.ts",
+      "bytes": 7020,
+      "sha256": "83b259fc3a324c6a90e7d24f0e44e329eef117b6121fadf533495943cad6075f",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "apps/factorygraph_console/next-env.d.ts",
+      "bytes": 288,
+      "sha256": "1862ac4bbbc5192d4bf562161df66ea547ed3e67173100656ab606ae9797db2b",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "apps/factorygraph_console/next.config.ts",
+      "bytes": 976,
+      "sha256": "4922389bb71756c190e53ddb46594552b29b2e8be00ebb1b2ab42014ffaf4068",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "apps/factorygraph_console/package-lock.json",
+      "bytes": 159738,
+      "sha256": "1301b1be7505d74c49e3f0430cb47c798541f030fc70beab2720f4fc83aea8c8",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "apps/factorygraph_console/package.json",
+      "bytes": 1061,
+      "sha256": "db420aa008c63a9d3beb1e4cc62150f95b5cf3462b665c92fbac0b38cf582eb7",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "apps/factorygraph_console/postcss.config.mjs",
+      "bytes": 60,
+      "sha256": "a1a188221f064d964dd9958c3d48b0c23252fabbeb6099d95ee8e15c764718b0",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "apps/factorygraph_console/public/brand-mark.svg",
+      "bytes": 296,
+      "sha256": "f1b52ea22720b606c29901ac5b400ce2b50b5c0f9bd47c73a857ff4ea7ac7ec2",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "apps/factorygraph_console/public/favicon.ico",
+      "bytes": 1908,
+      "sha256": "39188a2f9e74a72d13ec531eecf2db7fbc8d6e8e99b40919e08ea9c5a45dac5f",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "apps/factorygraph_console/tests/security.test.mjs",
+      "bytes": 8473,
+      "sha256": "680c5ee5c05ed0e9e7afb7d7bfdf50f16a8b9d6fdbae430d25125dcb5164550c",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "apps/factorygraph_console/tsconfig.json",
+      "bytes": 650,
+      "sha256": "3a048c27852b1b7bafc742e8ff53cffc34d0316c867f8a267758174a27804477",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "apps/factorygraph_dashboard/app.py",
+      "bytes": 17098,
+      "sha256": "19980cef08c8fc3a5d94a74044ead9525fcfffbe6a0bfafd97bc5c04feb49163",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "apps/factorygraph_dashboard/client.py",
+      "bytes": 1539,
+      "sha256": "0ff7db8277549ec67e89605673900963cff15191f92863ecc1ee18050c6ee2b1",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "configs/baseline.yaml",
+      "bytes": 547,
+      "sha256": "008be2d9120221f6bc8cc5abb23d3561bc962a844eeb3aacdc6c3523488d51ce",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "configs/phase2/kumo_full.yaml",
+      "bytes": 433,
+      "sha256": "41ffbc0c515545c382f2e173162872e468be4b72679eb71b6fe1684179b462d4",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "configs/phase2/kumo_pilot.yaml",
+      "bytes": 433,
+      "sha256": "4a47c597088016a479f10224d8e1b8d8aeb1dee5d2b0ef7e9cb5cff3c9c0acc9",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "configs/phase3/azure.yaml",
+      "bytes": 454,
+      "sha256": "2bfa3d694e8be79bc72a818390443aaa57858e58f11ef9cdbdae6613257b5563",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "configs/phase3/metropt.yaml",
+      "bytes": 488,
+      "sha256": "106fed6b3e2a90764e607b2541b5f206d53edc663861cfa587f110ff93cf83dc",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "configs/phase4/full.yaml",
+      "bytes": 466,
+      "sha256": "59da3c4aa0263f12fc06544ad45334aa3a3054f319c5ed9935732cc58ee1f0ac",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "configs/phase4/load-env.ps1",
+      "bytes": 529,
+      "sha256": "34509fcc5e7c2707991cd6509ad7999e91fe53c27e21ee0cb1a09cc38c6b14b6",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "configs/phase4/neo4j.conf",
+      "bytes": 467,
+      "sha256": "5588e9d808383baeb3ad7458ebe0d0eecbd3395046a91f5b5690598042f68217",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "configs/phase4/pilot.yaml",
+      "bytes": 96,
+      "sha256": "158424f215bde0765f7c4aad14d490080b71d08487325bb5bc1f87686dbfbb6a",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "configs/phase5/study.yaml",
+      "bytes": 142,
+      "sha256": "19bcc94ca9304fd6a613e9c9f4e7fd845f6a8b7d6736fcaf361849b798279b9d",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "configs/phase6/case-report-v1.schema.json",
+      "bytes": 11232,
+      "sha256": "0d73960446618a400bfe389cb4706f1d24e8ef2b154e68fd9be47a2787fe9079",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "configs/phase6/rules-v1.json",
+      "bytes": 858,
+      "sha256": "4fc6789ba36a393f18e4c58709521b688070ad28885a81c954bcf597a03cad57",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "configs/phase6/v1.yaml",
+      "bytes": 211,
+      "sha256": "4b6938b8e2dedc93eb4e8cb1ac4efb251cb928481764880b149a286abdf5f87f",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "configs/phase7/local.yaml",
+      "bytes": 273,
+      "sha256": "ee4e80b35b950bd6ca863b1c5cdf25fcea0b3ad649cc86c75b842a867ee7b7ba",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "configs/phase7/openapi-v1.json",
+      "bytes": 11543,
+      "sha256": "e74702f32fa94ca6bd29533d6bb981d27390ee77290120a30f167d89434c856e",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "configs/phase8/study.yaml",
+      "bytes": 703,
+      "sha256": "7fb13e69e502461eb10d28c3e3a8bd33f281356f10d740e8263b80ca64a29043",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "deployment/.env.example",
+      "bytes": 336,
+      "sha256": "187e661677768fb3d5ae8b2fccce718f87d406feb88c1f4dfaaa2ed391176d39",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "deployment/.gitignore",
+      "bytes": 14,
+      "sha256": "7c1d2e318076fc9a0c0e2766a76a410b4af00aa6ada63c19c9d266075e353337",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "deployment/api/Dockerfile",
+      "bytes": 820,
+      "sha256": "df246e535c658aca766d48892bdccaca54897f0c1b6a13e5bceb74b590a5164b",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "deployment/dashboard/Dockerfile",
+      "bytes": 710,
+      "sha256": "0a5dcf59304cc2a2365e38d10b9826e87a88c6915f8094dd1f985e1c48cc58c3",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "deployment/docker-compose.yml",
+      "bytes": 3266,
+      "sha256": "a612b39ce7241f4d979921731f05e7f77a64df02cd0716c3cff5e891d2b0626f",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 1188,
+      "sha256": "7ab8ded559dc79f9540f767091d2f807f1c69a500f6c1d06eb951296f45a17a2",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/DATASET.md",
+      "bytes": 925,
+      "sha256": "36d1edaa0c758e7c4c5a61b4e438bf2a2e793ada2ebada9eaae0f4e623da50d4",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/DATA_AND_MODELS.md",
+      "bytes": 1669,
+      "sha256": "a03c7438e83412f970988e8959432fc4116f5c4525a7a17b3b7735f4aab9c183",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/DECISIONS.md",
+      "bytes": 451,
+      "sha256": "26bfdd7c23e359f86eea0fdcce4434fd2067b8bf23c544954e3b0ecf84794027",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/LICENSING.md",
+      "bytes": 587,
+      "sha256": "8c62b1725a5998bb502e184a86e515e245ef6649b23320dfee7d19d92f874f04",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/MEDIA.md",
+      "bytes": 1332,
+      "sha256": "17797ff13d2a012048eb758fd5b395e0dba0ebe94d339f1c4a66a10a86d07f39",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/MODEL_CANDIDATES.md",
+      "bytes": 3275,
+      "sha256": "9d244b08bcd231a87eaa18efb16610cb88b888726c4db9ae2593b54219cd9aa3",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/OPERATIONS_CONSOLE_V2_ARCHITECTURE.md",
+      "bytes": 4583,
+      "sha256": "2e88534786ed91039527a74b381904239bb1501efee7bd9480e5a387c9b7f82c",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/OPERATIONS_CONSOLE_V2_BROWSER_QA.md",
+      "bytes": 395,
+      "sha256": "9a593065045bf30fc7850ddd0bbeb61fb9441a08ec04c2b016ef5a4122b8abc0",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/OPERATIONS_CONSOLE_V2_DESIGN.md",
+      "bytes": 3103,
+      "sha256": "400d444b2bc5414054403d8561a146c4ee87c72543e7f1713eb7b0e333045e54",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/OPERATIONS_CONSOLE_V2_REPORT.md",
+      "bytes": 596,
+      "sha256": "90d9edc574b6ca48ef27eef6ef985e66106fee6a0feaec8eb95d0099e2647693",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/OPERATIONS_CONSOLE_V2_SECURITY.md",
+      "bytes": 3731,
+      "sha256": "e794c70a967520e67270c5e94fbe8dc61b6fcf91c13c17245fa01090bf704576",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/PHASE1_REPORT.md",
+      "bytes": 551,
+      "sha256": "f2fa84698f7cd7dad56df393aa6fe3013c9e22c3f1dedc79305245c9a01ac69b",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/PHASE2_EXPERIMENT.md",
+      "bytes": 5861,
+      "sha256": "1b6838869f1253411cba85467dcbc63b757e448da79534b92d51aa212dabe488",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/PHASE2_FULL_EXPERIMENT.md",
+      "bytes": 4628,
+      "sha256": "696bcee77e26cf323b3a17f393cdfb980ea42a0965833a141c427f3c40c74e75",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/PHASE2_MODEL_SELECTION.md",
+      "bytes": 5875,
+      "sha256": "757888dad052e483aaaecceeb2bd20784919578cf790735412c41f527736e74a",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/PHASE2_REPORT.md",
+      "bytes": 551,
+      "sha256": "cb0dbb4a2250548baab9cdd3d3a2f882024a55eb9e4c01151909abb3b6070287",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/PHASE3_EXPERIMENT.md",
+      "bytes": 6244,
+      "sha256": "1b920456116ad34f84d4384e69cbde00a99dca064f8f6b60ec7caf64d66bfe45",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/PHASE3_METROPT_EXPERIMENT.md",
+      "bytes": 3828,
+      "sha256": "7de90fa0d98d0e8b4e1b9a7389c503543785c368df1ebad8e16d7c02f592bc02",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/PHASE3_MODEL_SELECTION.md",
+      "bytes": 4017,
+      "sha256": "90b5d52ddb6ac756a8a8fd574bc731d59e9b7c9166878cc9ae053c1144c6ac0b",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/PHASE3_REPORT.md",
+      "bytes": 551,
+      "sha256": "9511a60381a5ad2b6f1d9ee6585c89dcdd61ef95be65bd2191dd41c6b94701d8",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/PHASE4_EXPERIMENT.md",
+      "bytes": 4546,
+      "sha256": "faf63567777bd59a7b15c15e2c19c8598240b818588ae5cb3c6f2c8b7d928892",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/PHASE4_MODELING_DECISIONS.md",
+      "bytes": 3770,
+      "sha256": "5b5139cdf4d880c885e816fae9245967946677d37d316508c605bbf03ebd4f3d",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/PHASE4_ONTOLOGY.md",
+      "bytes": 8700,
+      "sha256": "4f0ab07f688d6520fe3e4136eb768aec4eb7366994a4a241b5b7eba7985597b5",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/PHASE4_REPORT.md",
+      "bytes": 551,
+      "sha256": "84674e4ed98995fe2613a6f6867d09f044f890460c796e05a57483f7fea252eb",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/PHASE5_ABLATION_DESIGN.md",
+      "bytes": 3928,
+      "sha256": "b6179d2bbc9c4e939f69998a11018945bcd4ddb6e8cb3884b864de909f16f8cf",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/PHASE5_REPORT.md",
+      "bytes": 551,
+      "sha256": "527d1d20041c73f3f383a0e25f149bd861c21a798619a3a952e8645543b057f1",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/PHASE5_RESEARCH_PROTOCOL.md",
+      "bytes": 3767,
+      "sha256": "98ea0c86015ea503d8b1e99f650d28030076030bf4baa875a534e75fc2e899fc",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/PHASE5_TEMPORAL_FEATURE_POLICY.md",
+      "bytes": 3328,
+      "sha256": "fcc2d68c58ca3b32c3a5c61ea5d6f88f77694c298ecac70f8b9bf7a300b4911a",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/PHASE6_ARCHITECTURE.md",
+      "bytes": 3861,
+      "sha256": "9862eed58e8562a5c9372f619780bbbf6931bc26cf4db774fa13795c3648ddd4",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/PHASE6_EVALUATION_PROTOCOL.md",
+      "bytes": 4021,
+      "sha256": "51da0ee274bd1e1463e4a7b28328898561901235694dfb11a064f18719b9e796",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/PHASE6_EVIDENCE_POLICY.md",
+      "bytes": 3144,
+      "sha256": "8415cdfae723ca6b14ade491e7d415382ddd979d733adffebd8fef5dbef8203a",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/PHASE6_RECOMMENDATION_RULES.md",
+      "bytes": 1996,
+      "sha256": "f63e0a7f5320039e22bc09105da68ec301e1daced148521181a35923d1f09389",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/PHASE6_REPORT.md",
+      "bytes": 551,
+      "sha256": "4a8e8545943b1b74f4dc3f270514648f3adb9024ab6522083cb9f682c7ce9857",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/PHASE7_API.md",
+      "bytes": 2640,
+      "sha256": "9e066a1e5e6929e03ef9036243ec0f7205a0bf283754a6cd32380b27b8411cf9",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/PHASE7_ARCHITECTURE.md",
+      "bytes": 2799,
+      "sha256": "8baacfa7ad8bc4833ac611a7020ecb2fc0e2e2f95f2e6985ca9cd93d02c360c4",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/PHASE7_BROWSER_QA.md",
+      "bytes": 395,
+      "sha256": "9a593065045bf30fc7850ddd0bbeb61fb9441a08ec04c2b016ef5a4122b8abc0",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/PHASE7_CLOSURE_CAPABILITIES.md",
+      "bytes": 509,
+      "sha256": "afcafc03fb8d16cd150ef02f95052958c59f5b9248205c8715f895bb5f1ea5b1",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/PHASE7_CLOSURE_REPORT.md",
+      "bytes": 395,
+      "sha256": "9a593065045bf30fc7850ddd0bbeb61fb9441a08ec04c2b016ef5a4122b8abc0",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/PHASE7_CONTAINER_ACCEPTANCE.md",
+      "bytes": 604,
+      "sha256": "7a1e12c7697ccbc37a545430c9f2b305d3fc2dd7abf150b255300d05dfdc49a0",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/PHASE7_DEPLOYMENT.md",
+      "bytes": 8511,
+      "sha256": "138e09fe952a58ef2b9f2f53487b9d474a0364af0009ba2a471edda5d4c62d59",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/PHASE7_HOSTING_OPTIONS.md",
+      "bytes": 443,
+      "sha256": "f8952a6a3be3792bc869b5021d942024aac51cac4f9c465e7c1d588b172bbcf1",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/PHASE7_RELEASE_READINESS.md",
+      "bytes": 531,
+      "sha256": "ca9f25b28e084f52a047f4ab62b4fedc34b91457e12163c435eb4f5412544a95",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/PHASE7_REPORT.md",
+      "bytes": 551,
+      "sha256": "81817bfd80a4fda3815c6f046ab980211ee6fa572780e2b5b8215c26c8dd88dd",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/PHASE7_SECURITY.md",
+      "bytes": 2596,
+      "sha256": "b3a343beb3c4c7475620902d8e5cb898651fd04eea243b2a6bf85e7b74013788",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/PHASE7_TEST_PROTOCOL.md",
+      "bytes": 2975,
+      "sha256": "c9bc962300c36e236ce7509379d74eb9edaa9c6ae42718b981f6bdb026f40fcd",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/PHASE8_BENCHMARK_REPORT.md",
+      "bytes": 7852,
+      "sha256": "cba5d4127563f4c119b6d2592dd50e320634bbc152c159f30dc2c40962b15003",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/PHASE8_BOTTLENECK_ANALYSIS.md",
+      "bytes": 3336,
+      "sha256": "d464f409c17ad8738f2cf3e9f714220a73b2c335fcb142c7850433f88b6541bf",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/PHASE8_OPTIMIZATION_DECISIONS.md",
+      "bytes": 4550,
+      "sha256": "3b6c35e95ce76f70ea2b05591e6451026ee79f14796ed5354d32db16cb9350f8",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/PHASE8_PROFILING_PROTOCOL.md",
+      "bytes": 6681,
+      "sha256": "f74f9c956411ea091ff508f8228a0e4340bb3c5e075973789a642c8c05848192",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/PHASE8_REPORT.md",
+      "bytes": 551,
+      "sha256": "1ea3a65167e83918d1be741a1e902f4cf351c0fcb8cada408686258c553bd274",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/RESEARCH_PLAN.md",
+      "bytes": 5822,
+      "sha256": "c7c5e8b5bedca68d5f7f7dee846e1ce195c530e8fc58fe565fef015cb6b42fbc",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/ROADMAP.md",
+      "bytes": 376,
+      "sha256": "4236729449772afd91f386717ab639580004551e524b56ab42a9fb0979a82245",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 1500,
+      "sha256": "4981dff44c868bafff9f71717592b1cbb55d4c2fc2b93dc4dc71b99f3978f38e",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/dependency_licenses.json",
+      "bytes": 33399,
+      "sha256": "e0a9027beb6a4c775991bfec8decf066071725e2e83f8ed4bcfb64a74ee79da5",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/examples/phase6/README.md",
+      "bytes": 215,
+      "sha256": "659601005b42e74320cf2fa992063f50fc179b77107aee61ad0635b04051186e",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/media/architecture.svg",
+      "bytes": 6333,
+      "sha256": "a64b46de0062994c03d0e946f21eaf3e38091540b0c0ab097009534fbcc80692",
+      "kind": "original_explanatory_diagram"
+    },
+    {
+      "path": "docs/media/console-overview-illustrative.svg",
+      "bytes": 5299,
+      "sha256": "785fdaa64ac783aa8f0a22347ce69415cd1991ad318293373b090369f1e30b93",
+      "kind": "original_explanatory_diagram"
+    },
+    {
+      "path": "docs/media/console-signin.png",
+      "bytes": 55146,
+      "sha256": "f5863dd3020f11765e6adc6858fdf9fb4660fba95d0cc8a82ca25a073da5d82b",
+      "kind": "genuine_data_free_software_capture"
+    },
+    {
+      "path": "docs/media/research-workflow.svg",
+      "bytes": 5032,
+      "sha256": "ae94e840f1d3e8851f2103e5f978abf5bf3b449383bfe4ac13ebb8946e67b71a",
+      "kind": "original_explanatory_diagram"
+    },
+    {
+      "path": "docs/public_results/operations_console_v2.json",
+      "bytes": 1090,
+      "sha256": "34e16d8965765b77e3d84148e89a38534d7c5bbd8b23b047b5c5457afdcd92af",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/public_results/phase1.json",
+      "bytes": 1311,
+      "sha256": "a4af0350e3dcebcf53ad4b660928ee71a73ef44c55fa90f863fb936dbbc90e00",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/public_results/phase2.json",
+      "bytes": 1309,
+      "sha256": "7bec3df73ac7eb347d5f45487c778077d0036ac10ee0504468c8a85950dca9dc",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/public_results/phase3.json",
+      "bytes": 1128,
+      "sha256": "44ea055c529ea50d68859edad3f4b1c0802296b3b340e798f3c19e425fdac8d0",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/public_results/phase4.json",
+      "bytes": 957,
+      "sha256": "a1b4c5f0287361a379c6aeb1bba1557592f03eca2070705aab4c21c4757dca74",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/public_results/phase5.json",
+      "bytes": 2901,
+      "sha256": "9109b5bfd5b7561e2846df6630d098500247dacd7907790ada9568742a346de3",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/public_results/phase6.json",
+      "bytes": 986,
+      "sha256": "58c4bf4b18a908f8aebd69922d6215ec14c8f692c30a36d75b0f9b909949abfa",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/public_results/phase7.json",
+      "bytes": 960,
+      "sha256": "ee610c8d479f2b68e82b5c1020fffdb12c586bfebb711691f46aa8bfd45e5565",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "docs/public_results/phase8.json",
+      "bytes": 1060,
+      "sha256": "923ce87c463fe2dcba8ac9c02c76230f4034fdad9fe4d7d86b0fc068f13f5225",
+      "kind": "public_documentation"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 822,
+      "sha256": "4881e8dafb1fa23c86da3cf11a7cd4eadcf8c8b4d57eaf3238ec09c3a48a9d2c",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "requirements.lock",
+      "bytes": 678,
+      "sha256": "2fe0d07781af73574e3bfe2574b222fb2052c00fd7795938939a02f89a50adfc",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "requirements/phase2-cu128.lock",
+      "bytes": 618,
+      "sha256": "54f77cc79b4a34246d5d11567c6e31a4740e1644d4abab9f217cc760d250b391",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "requirements/phase3-cu128.lock",
+      "bytes": 585,
+      "sha256": "6a983a0f2b500fbaaf083abea696ffd46cf48a545a0b671a53218757db8583ef",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "requirements/phase4.lock",
+      "bytes": 135,
+      "sha256": "e95480dddfa1627e7aa31e8db60cf688414f8eedd96613b5f338f557daf24f08",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "requirements/phase5.lock",
+      "bytes": 89,
+      "sha256": "4c70e8836869bfff3dd4d0e7781a30cba02a9c828a4dc2c10d9d517d5a78a50c",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "requirements/phase6.lock",
+      "bytes": 102,
+      "sha256": "e2d6416c2ad12d39b0271f2183b6a374dca27df66121fb8ecb6f960f0d804e28",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "requirements/phase7-api.lock",
+      "bytes": 698,
+      "sha256": "2aeaf3a87dd003de9be4c9db636392aeac4a7d6fd40dca41e4e6af4cb97a2740",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "requirements/phase7-closure-browser.lock",
+      "bytes": 108,
+      "sha256": "fd90f2e841f1f7bee0f33442d37b5ac5bb650887d04baf1165ea8532731e4755",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "requirements/phase7-dashboard.lock",
+      "bytes": 741,
+      "sha256": "c5aff929a12c761193c901bf3b13f5e159159f8431613c673568c50b3829a8b5",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "requirements/phase7-dev.lock",
+      "bytes": 1246,
+      "sha256": "79cb6462f1afbf0e8df3f0f30297810050e828f28b1dc2469c800811e31e428b",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "scripts/operations_console.py",
+      "bytes": 5470,
+      "sha256": "4c5a1cb1b0635927cca2a83c8c8ae071c3ed7a60b24395dc56188cb7b5157fb3",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "scripts/operations_console_audit.py",
+      "bytes": 2691,
+      "sha256": "dec17fba64f1a7997febb0f16c611644ca6e9cef2eb7c281916d2663055a05ac",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "scripts/operations_console_browser.py",
+      "bytes": 26588,
+      "sha256": "5f593f0223fd1ec1e31c7464cda7f543c865dd2249d570082df46b5149abba2e",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "scripts/operations_console_checks.py",
+      "bytes": 1647,
+      "sha256": "a6f27e680d9bc1cd975c4e4e5c5f9ed00b5126be896d3ed021ced47786459108",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "scripts/operations_console_faults.py",
+      "bytes": 5757,
+      "sha256": "809736ded6d0249f6ce0c8da1a39e6ec7711b4ced124562d4ca3b2c047d60092",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "scripts/operations_console_report.py",
+      "bytes": 8932,
+      "sha256": "273956e1f9ecb3fcf0492826caa0f2cfa8662cf044eee17c6fb9fbe163ad3d16",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "scripts/phase6_verify.py",
+      "bytes": 5054,
+      "sha256": "b4c27c07a8f8866b30cf0cd87624e4077db5024ac24430ca993335313ca45e3b",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "scripts/phase7_closure.py",
+      "bytes": 34215,
+      "sha256": "2eb1cd8efb585b28a96dc3faa66c660565a21c5803553037f511d07e8552d6be",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "scripts/phase7_closure_browser.py",
+      "bytes": 23532,
+      "sha256": "cf91a8b1c02c6feb20a4907cfe573fd23012329234f53e1c4dcc01117597a6c3",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "scripts/phase7_closure_services.py",
+      "bytes": 2667,
+      "sha256": "61fa3d1f9a7b462b925d129c53d4070a7d8281db3e189d2a60e57b8ce033b5c4",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "scripts/phase7_closure_verify.py",
+      "bytes": 3869,
+      "sha256": "69fb645f778015482b72d3065b7708facd0f0dfb6b16f6eaabb1e1eaec071a76",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "scripts/phase7_verify.py",
+      "bytes": 3402,
+      "sha256": "8f1d1eb96542600f5923399e4712bdbca5bd40b6fc2b38f627a3e23951834e72",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "scripts/phase8_verify.py",
+      "bytes": 3330,
+      "sha256": "9241d7ab2e45f8f046f742a3f97e445d545f44bbb7838789a9f7b5321a92f333",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/__init__.py",
+      "bytes": 84,
+      "sha256": "fa30db57c8c3e99fa1f2027884403042a065faa97b692acecd338fa157f9a693",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/cli.py",
+      "bytes": 2620,
+      "sha256": "6aff7e7f06905319a8bdac6241d3c9108ad50d1dc621decd18fb6779bbc2e706",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/config.py",
+      "bytes": 2343,
+      "sha256": "6b6c9f390e5debad9d106f05f7d834b08944a80bc93cf473aa27df8c5577039b",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/data.py",
+      "bytes": 9119,
+      "sha256": "0e2ff0cc4e465348480cc976a0005e2101bdc51d2867a3dc14436b1f3bb5e029",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/evaluation.py",
+      "bytes": 5485,
+      "sha256": "2fb24a489f3e6cb3959cfa6af170236d11f6d55529d5fa582302cc69f1edb834",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/features.py",
+      "bytes": 5824,
+      "sha256": "fcec34a19f8f6b0032222ac926697fdbc0a6ec09ce940bc9844bcfb6984f7b45",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/inference.py",
+      "bytes": 1688,
+      "sha256": "58a5043679f69915b553228502b4616bcb11a8332076ea5c658cb7eb2a26054b",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/io.py",
+      "bytes": 1223,
+      "sha256": "03f2d9faecf951e9c14582efa8401a64f3a7036f1a146aa5a395c7739b5d6963",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase2/__init__.py",
+      "bytes": 93,
+      "sha256": "eeaf692605f026b86a72d6db02c58d4d974791e8639de0f3f890f2250bef543b",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase2/adapter.py",
+      "bytes": 12345,
+      "sha256": "f593bc76331e71366a26519d897fdf654191a3da887a648481c54647d6edeb28",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase2/baseline_benchmark.py",
+      "bytes": 2179,
+      "sha256": "89f9908a7f6534950ac96561374d04815ddfa2a1ad46a1dd7545c5b514f39d0e",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase2/cli.py",
+      "bytes": 2829,
+      "sha256": "f9c4812271fbc6127df1678c09d685d314117ac28556b0328979ce11185ea73c",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase2/config.py",
+      "bytes": 1925,
+      "sha256": "648393d7bec02c5863392d11b0e47d6130f3a07922b253c3fe376c561eb410bb",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase2/context.py",
+      "bytes": 3455,
+      "sha256": "fa0c06f686b878ba8a3feec164cb488bdd35737dafc1d5b0715abe5cb33127ee",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase2/inputs.py",
+      "bytes": 6036,
+      "sha256": "f8ff6b9120459c0e9118e54737210056a461fdb3f420136ca67404957551b88a",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase2/metrics.py",
+      "bytes": 3801,
+      "sha256": "6a6ed72fbaa09f68b79a212cb2cb54c4798db8b30f83b9e53490adf82afdc4cc",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase2/runner.py",
+      "bytes": 14325,
+      "sha256": "2252fe4ee884207d44349179edd80a05e81be5571fbb46d677bec5c42b3d133c",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase3/__init__.py",
+      "bytes": 85,
+      "sha256": "85283f6f6814c0f933a0316a72f6f92eb1ac77da023eac3732ef10389bdc7384",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase3/adapter.py",
+      "bytes": 6675,
+      "sha256": "b33d4d15fe550338dcc084dcca6db106a7332b37c0a2b097497589f1dcf1cb71",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase3/anomaly.py",
+      "bytes": 3498,
+      "sha256": "68227ff6304785e3065e41996ae3adc9e8bad17ffede78e506e600058df866ac",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase3/cli.py",
+      "bytes": 4801,
+      "sha256": "f6e542f6c4d3f0a89ded35f9f8d96296782f5be14072b79e8ba95bf78119019b",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase3/config.py",
+      "bytes": 1278,
+      "sha256": "62299e6b67336823304bd61620a3acd143b7f02acd74ef292c7814dbdb4307eb",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase3/export.py",
+      "bytes": 9754,
+      "sha256": "aba223620c49528c5eac35f31aa946f0f9b98ac30f6f44511a132d1d0b4e3f98",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase3/integrity.py",
+      "bytes": 1846,
+      "sha256": "894dc0e272a6b5129c155495021f32a2b9eea1da94357e1356dbd0d11292ba07",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase3/metrics.py",
+      "bytes": 3444,
+      "sha256": "3ddcaf8efea07de8728ba8b031ee6be4f800924fc0322e76850581478df89550",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase3/report.py",
+      "bytes": 10110,
+      "sha256": "baa5d8d8ea36389153ab63475381a0c144565000d4736b982006d884e852724c",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase3/sequences.py",
+      "bytes": 4970,
+      "sha256": "055c950404ad48538174ba679cbf1be6080cf85e3ce5f1a1a91daaa1edb99df6",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase3/sources.py",
+      "bytes": 5060,
+      "sha256": "6da16be87ff716a1568e128e6941a3ea13f5f5881aac36692d6a47a8d0966c0e",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase3/study.py",
+      "bytes": 13483,
+      "sha256": "4516821a9e8950985bdff8eaf87cf13ec4115651fde21804436278bf58f8dfbe",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase4/__init__.py",
+      "bytes": 76,
+      "sha256": "53d9d9a583af0b58d68a1dbb374839b86cfe2049327d323c561601457ee8ab91",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase4/cli.py",
+      "bytes": 2615,
+      "sha256": "cc3085d2b807116135a6987dd8b6359eca3204bb271eb9decc4e762fc9aff0d0",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase4/config.py",
+      "bytes": 2220,
+      "sha256": "a060d2ea81dbc31228eafbfca722909eebe8553d5c99d0a88a3409a1ea8dc829",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase4/database.py",
+      "bytes": 10156,
+      "sha256": "a0fa908c58ef586785f2cddc9efbd09a984b9410f6d9e6ac4d16e98217938e0a",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase4/features.py",
+      "bytes": 8875,
+      "sha256": "910ba1041d5e81d8e65d9c7ba929e208ba938207201b89478421f4b363a2c359",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase4/maintenance.py",
+      "bytes": 4437,
+      "sha256": "ab576c0697df095134fcb9fb1287bb0489f3764fa66b492f577910f7f7b34585",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase4/queries.py",
+      "bytes": 6002,
+      "sha256": "32890322679e4d02a3dad5f394d9af6b7b71545980c741e72c7e873899f38c53",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase4/report.py",
+      "bytes": 12773,
+      "sha256": "f31894d96861e8fe8dfb0129485abe41794ab847ebea7db653644a56446a7430",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase4/runtime.py",
+      "bytes": 5870,
+      "sha256": "d043ea04e0421808c2dce7c75fabd658122bc1f120383764f34a05dec6b560dc",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase4/source.py",
+      "bytes": 7614,
+      "sha256": "5348b6f0bd6c790b37c4e4bb00cf8c36ce09692ecb2b3ddbb1d3a73048fade8f",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase4/study.py",
+      "bytes": 12608,
+      "sha256": "523553c27af82b51ba6b6b23f79e282aa4a9c1f799279f3bc8f5f873a5659283",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase5/__init__.py",
+      "bytes": 95,
+      "sha256": "d72dc02dc684a134b2986de07f557c0201105b9477ed7508202213ae99aa7e16",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase5/analysis.py",
+      "bytes": 11534,
+      "sha256": "057d976c1072e3df081b88fc70a3afaf9ddd6534ddd161b0d1b323659fa866f2",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase5/assembly.py",
+      "bytes": 3963,
+      "sha256": "7f75500c75c47357e4eaa081bb3b4fb62d6cefb4344f74337d2b14fdf9c4924a",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase5/cli.py",
+      "bytes": 2339,
+      "sha256": "602dfd6a6ad3cf77b9d75390f81da3d2bca6f1f50b958f8058f5e2e0fddec777",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase5/common.py",
+      "bytes": 5290,
+      "sha256": "d6bc9b6e5c1dffa140971f8da3cea38ed005dcdbc79e3360627a75a56fa160c1",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase5/contribution.py",
+      "bytes": 2653,
+      "sha256": "7e9b9c0334b55feec0abed37c8bea4abc4eef833b857d7bb3ba3dfe81b2df7d2",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase5/efficiency.py",
+      "bytes": 6576,
+      "sha256": "948107e820be919f23e5d6dd7b3b05c8f0a41ffa7dcbb1caf0fa30768b5bed7f",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase5/learning.py",
+      "bytes": 10838,
+      "sha256": "5b869933d8203efccae9d0964ddacf14a2188be84c0fac8e01e954db9d1a07c6",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase5/relational.py",
+      "bytes": 5948,
+      "sha256": "55530cd8abd00573c49be459b9c04ea2788a27d29c11b635b55b0690974c3001",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase5/report.py",
+      "bytes": 4476,
+      "sha256": "7913e6c926f4ea71235d45975eec7435f47e65c784ff823d35dde1a2f15c33c0",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase5/temporal.py",
+      "bytes": 15825,
+      "sha256": "79939e479c2193a1839d5af239d81bc352f91b07f550a8d95b8d6316c0ea13da",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase5/verification.py",
+      "bytes": 4498,
+      "sha256": "48b2828767efe43ea9130a2610c4f60c6391cd6d915b7499dcb0f328f4274bb0",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase6/__init__.py",
+      "bytes": 112,
+      "sha256": "dc4b9ac918eaa34bbbfedd932c30a1c0e16a3d3d9fb3f6fff905e83b63b22fc5",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase6/cli.py",
+      "bytes": 3305,
+      "sha256": "26e6e3142b247ac4e2f18329b7cb18a3940ac4e6b7fdb8602e0f589036a5fddc",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase6/common.py",
+      "bytes": 2870,
+      "sha256": "4530c23c39b1c0c4ab254da885c23c111a9d46d4cf22214124d8d15f2b775834",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase6/evaluation.py",
+      "bytes": 19794,
+      "sha256": "c215df0c9033ef5fc23d0f06c3c9736e8105e3587a940c53c8d23cca79116c79",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase6/evidence.py",
+      "bytes": 10362,
+      "sha256": "f648e22a7afd8ac3e2a6d0c79f4f56c3fc4a9acd00124e3a8ab7980b6b337d67",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase6/integrity.py",
+      "bytes": 9788,
+      "sha256": "e49bd7f3a2106a3267016f16680370f6045e6ba812434fc3c5d08e2d85360a8b",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase6/prediction.py",
+      "bytes": 6472,
+      "sha256": "df308e07731206c86e3ad21bc7624ca43fbafae4e624e0bd0f715ad283b44350",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase6/report.py",
+      "bytes": 4680,
+      "sha256": "d4e3bba6f748279dd7d859d91ca19bbc75425fbeb99c8c8cb8e0c857d7900734",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase6/rules.py",
+      "bytes": 5670,
+      "sha256": "0f30c87c701566ff7e18b3ae5b4ab82fea3712d080902b261f00fcb8088b00f5",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase6/schema.py",
+      "bytes": 4371,
+      "sha256": "0aa07fc78c7988e39b9efebfe6fe08003cbc9be41ed502e12bb42937724422c2",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase6/service.py",
+      "bytes": 9571,
+      "sha256": "303d1cf4f45bf09264a7817bf345c5fdec53e64e7e73d0cb78ab73975ae4c76f",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase6/temporal.py",
+      "bytes": 6394,
+      "sha256": "77f570667e18211911ba68d6d41f3b83a1584d1e6265f92afee42e1fd51e4a29",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase7/__init__.py",
+      "bytes": 73,
+      "sha256": "f4c37f3020bc741fb6302e419b547044ed3b2a9461d326d98a90141b0ff26d55",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase7/api.py",
+      "bytes": 15764,
+      "sha256": "4b6a7434181240d39ae87015249bfb5bb9e30488cec3afd53f27e261c1f2af64",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase7/audit.py",
+      "bytes": 4529,
+      "sha256": "2605b46cb2fecef6eacd11b9d8f18050162c067ab9e432cd6ffaf4f4714971dd",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase7/bootstrap.py",
+      "bytes": 4124,
+      "sha256": "344e0695e4301fbe2e0f8b8631ffb981371c1f83db8d921406d09c7d965b00c9",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase7/cli.py",
+      "bytes": 7329,
+      "sha256": "288efdc26793c52ce24ddb571a71e08c52b60cb749188e9fb516c05bb6a9cd52",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase7/config.py",
+      "bytes": 1704,
+      "sha256": "d21b6270e4c7451878e8fd10fd9c38496e5e3dc3e352b380bf9234f2373843b1",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase7/pilot.py",
+      "bytes": 6419,
+      "sha256": "f223ec84c976711178629de11bdd608ec8048a0c19824b22f5130589af3c4d5e",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase7/report.py",
+      "bytes": 5892,
+      "sha256": "857f45a8003336b23f2f1eea9cae46ca0e3f38f4baccf00af42177b0000d94c5",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase7/runtime.py",
+      "bytes": 10683,
+      "sha256": "bddefa54cb77e0c606aa73e3d2c23f93303b2a6b7947212dfeb1a92df9e8eb71",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase7/server.py",
+      "bytes": 460,
+      "sha256": "c19d691ad250fdc9a6e00c8d0642d865f8dd03abb9b2fb32c18e324231f91a35",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase8/__init__.py",
+      "bytes": 79,
+      "sha256": "7156f72e45253ea0d06475c85c22088f844b5f102d0db8926393af03e0e159be",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase8/benchmark.py",
+      "bytes": 14542,
+      "sha256": "ee36d939731e94c9d78576ec113b4d9dfac502d6ad99a4a0256a5641e4cc08b8",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase8/candidate.py",
+      "bytes": 2175,
+      "sha256": "88795c8f7ecd6b09eccaaea1a104fb981bdb706efd12f920c6150d4adeaeb0dd",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase8/common.py",
+      "bytes": 7634,
+      "sha256": "5b72317d862e71904ed576fc333508e4ba655d44871aac62a8908def54d052d3",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase8/diagnostics.py",
+      "bytes": 4648,
+      "sha256": "1fb96986d21c32729b285c5459a12cd35bc975dbf82a388902f1de2ad3c9ecf3",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase8/frontend.py",
+      "bytes": 4820,
+      "sha256": "0540e0bffce60d8e7b761cc8b2e119d10533b2300571c95d48f8cefc93c928de",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase8/instrumentation.py",
+      "bytes": 6373,
+      "sha256": "a1a8ab036425eb85e64d0ed0ce1fc0c37995af6ed2e604a1c952a12638d5795e",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase8/report.py",
+      "bytes": 5714,
+      "sha256": "d1d037a9c3e14fc62c10f6e5fe1acbe42d8150f87b5d138ba9cbe69042c3d4d2",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase8/reproduction.py",
+      "bytes": 1623,
+      "sha256": "8264ec90b14e11e1a9244530b0d29f223268dfc176f1bc43ae994ee83f9bbbbb",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase8/server.py",
+      "bytes": 2681,
+      "sha256": "34d98c7d98e25a45ac0cb95c15463e4a0503ac8d88e6e77921dd095624ebcce2",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/phase8/verification.py",
+      "bytes": 8927,
+      "sha256": "a703af4f2139a649e5ec615648ca35438a49bcefda83476851288f092affff36",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "src/factorygraph/training.py",
+      "bytes": 10334,
+      "sha256": "322e3615fdb95cb63802e44bbebf559f2e85252aa558fb8641f486f5ece14f93",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "tests/conftest.py",
+      "bytes": 1722,
+      "sha256": "a847a5419286e3a51c37436f2b22d607c978cdc836b2909902a0ab053566e6e6",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "tests/fixtures/illustrative_case.json",
+      "bytes": 2023,
+      "sha256": "e58334723544845e19791edab8bbcc140feee21ab65c720351ed8bbdbf51be59",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "tests/phase2/test_adapter.py",
+      "bytes": 4106,
+      "sha256": "c226847bd0bbaf000e514d6f79e0d9c71d92ea39da52722a2bbeee1d779087f5",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "tests/phase2/test_context.py",
+      "bytes": 2991,
+      "sha256": "96e52eff896573f033c20275313c9afa22d1e15c9dc0ec6df5b96b12122b8eb6",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "tests/phase2/test_metrics.py",
+      "bytes": 1136,
+      "sha256": "dba2472f2fee137a5fd96afa2cffcfb2d47f1a155c853927e8836799f6ab37d0",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "tests/phase3/test_phase3_adapter.py",
+      "bytes": 2084,
+      "sha256": "654f4a75e7acd21cd5603d164fd1d33bb4bffd046c6952fee9afa062a6a35580",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "tests/phase3/test_phase3_anomaly.py",
+      "bytes": 2229,
+      "sha256": "e3827204671bcb191c526449368bcbbe20775bb12180581654d239dbc87ef6a8",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "tests/phase3/test_phase3_export.py",
+      "bytes": 2661,
+      "sha256": "449be936e57b14194c9889fb8632e99b2f44f670367b1101075a0d277c0df97f",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "tests/phase3/test_phase3_saved_pipeline.py",
+      "bytes": 1659,
+      "sha256": "90338105b763c59a65ca556ab236167eb6b06495f689ad5ae89786917dee8de3",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "tests/phase3/test_phase3_sequences.py",
+      "bytes": 4600,
+      "sha256": "80fdf3ab92d7de38e536e4202c4f6748014ab3951f76fccc45d209dc8d61bee2",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "tests/phase4/test_phase4_integration.py",
+      "bytes": 6327,
+      "sha256": "b00cc4a57dd7d415a8865b6d559d9e76974b4edd42f790aafd84dcee145f153b",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "tests/phase4/test_phase4_unit.py",
+      "bytes": 8109,
+      "sha256": "e04a65a993caab7bad97b2834fe07f03ce11aedc842c1c03abfbb394e9de24f4",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "tests/phase5/test_phase5_controls.py",
+      "bytes": 4681,
+      "sha256": "2be362400f6b2e02bd906d3e6bcf591868ec8982fc109e969587803e059994bf",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "tests/phase5/test_phase5_temporal.py",
+      "bytes": 4477,
+      "sha256": "3b9edf3b1fdf342eef38efce300c1fa3ab5df939eb91ad2e465553e433e91077",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "tests/phase6/test_phase6_integration.py",
+      "bytes": 6337,
+      "sha256": "20cb22e33ea362ec8bf6afb9d81122019791b571ccdb54b743edcdb05c282e3a",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "tests/phase6/test_phase6_saved.py",
+      "bytes": 5016,
+      "sha256": "9e61fe02847f0c163f36e93e7220a3b435aad9bf5f7104d5f9778d78e8d11c59",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "tests/phase6/test_phase6_unit.py",
+      "bytes": 10179,
+      "sha256": "a055c03eb5dd52344d94b397d79e4ce262495d2cb87a4a0859b81bef13c236bc",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "tests/phase7/test_phase7_api.py",
+      "bytes": 8620,
+      "sha256": "81f42964e69a2c82dc3cfa2459a20c835004c000f1ac5b2a967c19e3a26fa7af",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "tests/phase7/test_phase7_dashboard.py",
+      "bytes": 2223,
+      "sha256": "f820a452373d20cbcf4884911a3290a25a186d98eb4996f007233688656c12ee",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "tests/phase7/test_phase7_deployment.py",
+      "bytes": 1865,
+      "sha256": "ce877137a812b271812ebee1bbf6fdbfda098d199b49113b1217dc433deca541",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "tests/phase7/test_phase7_integration.py",
+      "bytes": 3331,
+      "sha256": "2db573617ccf1183309f5b749f3b1bc6c99ca5a1efb0ef80337437bbcf50fbb1",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "tests/phase7/test_phase7_lifecycle.py",
+      "bytes": 1838,
+      "sha256": "b5b9c8e0fc7240e7136bf77d120e8db1af01b19e4401e747f7b3e1e2756cb890",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "tests/phase8/test_phase8.py",
+      "bytes": 8733,
+      "sha256": "4b5413592fc8e8d5dd551499ac167068e173d8ed30be841b0474f27847abfa22",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "tests/test_data.py",
+      "bytes": 2171,
+      "sha256": "72b986f009da03438d6b5ff3d9b742737da3d9d6568f440ca046abcd7e54e83e",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "tests/test_evaluation.py",
+      "bytes": 2154,
+      "sha256": "576ed20af6db5390b3cfdc598dc1a3bb6905437915be487923df32e170855380",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "tests/test_pipeline.py",
+      "bytes": 2402,
+      "sha256": "241e9decee78caa38c741fecc22482ce60e35f9111155e4853e0da4cd4406c8a",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "tests/test_public_fixture.py",
+      "bytes": 1314,
+      "sha256": "7e814848115b842cd235c5b83f3c8f8ee72f86aa548ed0264c2c3265b39b5f15",
+      "kind": "source_configuration_or_test"
+    },
+    {
+      "path": "tests/test_temporal.py",
+      "bytes": 5198,
+      "sha256": "e2248b6a6bae431e36c6cbf5b28b275350397935bf3633e7773b24ff64d3ece9",
+      "kind": "source_configuration_or_test"
+    }
+  ],
+  "self_hash_policy": "The manifest omits its own digest to avoid recursion.",
+  "excluded_classes": [
+    "datasets and accepted case records",
+    "credentials and local environments",
+    "model/database artifacts",
+    "generated logs/builds",
+    "private release-management records and recordings"
+  ],
+  "project_license": "Not selected; no project code license assigned"
+}

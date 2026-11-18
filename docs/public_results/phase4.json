@@ -1,0 +1,22 @@
+{
+  "schema_version": "factorygraph-public-summary-v1",
+  "record_kind": "sanitized_public_summary",
+  "phase": "phase4",
+  "source": "Selected accepted outcomes; not a rerun or the original raw experiment record",
+  "source_results_sha256": "7fa6c3a2533f91c3cc08e2f352bd13b4415d8a310c92a6d1fecef71a47318350",
+  "source_report": {
+    "title": "PHASE4_REPORT.md",
+    "sha256": "445abadeed9782d3bb507267aa348b525e55b925af6794be3bf48fc7f4a6b017"
+  },
+  "selected_metrics": {
+    "nodes": 8092,
+    "relationships": 25243,
+    "scope": "100 synthetic machines; category peers are not physical dependencies"
+  },
+  "limitations": [
+    "Synthetic retrospective benchmark; no real-machinery safety or causal claims.",
+    "Previously observed test, not a fresh confirmatory holdout.",
+    "MetroPT-3 full test incomplete; Phase 5 replacement NO-GO.",
+    "No source rows, case records, private logs or runtime identifiers included."
+  ]
+}

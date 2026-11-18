@@ -1,0 +1,6 @@
+run_dir: artifacts/phase5/study
+seed: 42
+batch_origins: 16
+max_forecast_seconds: 1800
+bootstrap_draws: 200
+alert_budgets: [0.005, 0.01, 0.02]

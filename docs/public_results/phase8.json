@@ -1,0 +1,23 @@
+{
+  "schema_version": "factorygraph-public-summary-v1",
+  "record_kind": "sanitized_public_summary",
+  "phase": "phase8",
+  "source": "Selected accepted outcomes; not a rerun or the original raw experiment record",
+  "source_results_sha256": "8feb5e5458202d519f572e89c4738ddebde50d2e4755d03509a5f6ef2d479b5b",
+  "source_report": {
+    "title": "PHASE8_REPORT.md",
+    "sha256": "6e9b1ee19631afaf5c5e3d111f87fa85cee8d5665186fc747209b9951841c6e0"
+  },
+  "selected_metrics": {
+    "median_paired_fleet_reduction_fraction": 0.4102622274886696,
+    "scope": "Matched native HTTP; no container/browser/SLA claim",
+    "decision": "RETAIN C1 for opt-in native service use",
+    "default_runtime": "B; C1 optional"
+  },
+  "limitations": [
+    "Synthetic retrospective benchmark; no real-machinery safety or causal claims.",
+    "Previously observed test, not a fresh confirmatory holdout.",
+    "MetroPT-3 full test incomplete; Phase 5 replacement NO-GO.",
+    "No source rows, case records, private logs or runtime identifiers included."
+  ]
+}

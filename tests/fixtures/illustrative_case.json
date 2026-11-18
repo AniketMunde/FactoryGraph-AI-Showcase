@@ -1,0 +1,67 @@
+{
+  "schema_version": "factorygraph-phase6-v1",
+  "case_id": "illustrative-generated-fixture-001",
+  "request": {
+    "machine_id": 1,
+    "snapshot": "2015-10-16T12:00:00+00:00",
+    "mode": "retrospective_replay"
+  },
+  "status": "evidence_only",
+  "prediction": {
+    "status": "unavailable",
+    "reason": "illustrative_generated_fixture; no model was scored",
+    "machine_id": null,
+    "snapshot": null,
+    "horizon_hours": 24,
+    "probability": null,
+    "model_id": null,
+    "model_sha256": null,
+    "calibration_sha256": null,
+    "prediction_file_sha256": null,
+    "policy_sha256": null,
+    "dataset_id": null,
+    "split": "test",
+    "mode": "retrospective_replay",
+    "record_id": null
+  },
+  "alert_policy": {
+    "status": "unavailable",
+    "threshold": null,
+    "cooldown_hours": 24,
+    "selected_on": "Not selected; software fixture only",
+    "policy_sha256": null,
+    "record_id": null,
+    "above_threshold": null,
+    "new_alert": null,
+    "cooldown_suppressed": null,
+    "last_episode_timestamp": null,
+    "scope": "illustrative_generated_fixture"
+  },
+  "historical_evidence": {
+    "status": "unavailable",
+    "facts": [],
+    "aggregates": {},
+    "reason": "Independently generated software fixture; no source records"
+  },
+  "temporal_context": {
+    "status": "unavailable",
+    "supplementary_chronos_context": {
+      "artifact_path": "illustrative-internal-path"
+    }
+  },
+  "recommendations": [],
+  "human_review_priority": "data_verification",
+  "explanation": [
+    "illustrative_generated_fixture: schema software test only, not accepted benchmark data"
+  ],
+  "data_availability": {
+    "classification": "illustrative_generated_fixture"
+  },
+  "provenance": {
+    "classification": "illustrative_generated_fixture",
+    "artifact_trust": "illustrative_generated_fixture"
+  },
+  "limitations": [
+    "Not a model prediction, accepted benchmark case, source-backed record or machinery assessment."
+  ]
+}

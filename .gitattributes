@@ -1,0 +1,3 @@
+# Scientific manifests hash exact bytes, including the accepted line endings.
+# Preserve those bytes on add and checkout across Windows and Linux.
+* -text

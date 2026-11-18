@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "rules": {
+    "R001": "Verified primary test prediction and new frozen-policy episode: prioritize human assessment",
+    "R002": "Verified primary score at threshold but episode suppressed: review existing alert, no new alert",
+    "R003": "Verified visible error records in bounded window: review those records",
+    "R004": "Verified visible maintenance records in bounded window: inspect recorded history",
+    "R005": "Verified visible prior failure records in bounded window: review recorded history without diagnosis",
+    "R006": "Verified exact-key historical sensor context: compare historical trends",
+    "R007": "Any unavailable component: request source-data verification, abstain from unsupported specifics"
+  },
+  "human_review_required": true,
+  "new_probability_thresholds": false,
+  "physical_actuation": false
+}

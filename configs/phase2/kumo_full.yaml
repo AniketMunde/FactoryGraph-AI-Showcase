@@ -1,0 +1,16 @@
+baseline_dir: artifacts/baseline
+run_dir: artifacts/phase2/kumo-full
+model_dir: data/models/phase2/kumo-small
+checkpoint_repo: nvidia/Kumo-Tabular
+checkpoint_revision: 3c3e10bbdb590ace29e7026847f92db3c603096d
+checkpoint_file: small/classifier.pt
+context_sizes: [512, 2048]
+cohort_machines: 100
+seed: 42
+batch_size: 64
+num_estimators: 1
+cpu_threads: 4
+device: cuda
+max_projected_seconds: 1800
+minimum_free_ram_gb: 3
+calibration: none

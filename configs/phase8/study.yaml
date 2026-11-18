@@ -1,0 +1,21 @@
+run_dir: artifacts/phase8/study
+port: 18081
+seed: 42
+request_deadline_seconds: 120
+max_benchmark_seconds: 1800
+minimum_available_ram_bytes: 1073741824
+maximum_service_rss_bytes: 2147483648
+minimum_free_disk_bytes: 5368709120
+warmups_per_block: 2
+reference_repeats_per_block: 5
+small_fleet_repeats_per_block: 3
+full_fleet_repeats_per_block: 1
+block_order: [baseline, candidate, candidate, baseline, baseline, candidate]
+fleet_snapshot: '2015-10-15T00:00:00Z'
+small_fleet: [1, 17, 42]
+concurrency: 1
+retention:
+  minimum_paired_fleet_reduction_fraction: 0.20
+  maximum_reference_median_regression_fraction: 0.10
+  require_all_three_fleet_pairs_faster: true
+  require_zero_semantic_security_failures: true

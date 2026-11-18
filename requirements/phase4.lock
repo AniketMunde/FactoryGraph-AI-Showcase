@@ -1,0 +1,4 @@
+# Windows/Python 3.12; independent Phase 4 environment; no prior lock modifications.
+-r ../requirements.lock
+neo4j==6.4.1
+pytz==2026.6

@@ -1,0 +1,21 @@
+{
+  "schema_version": "factorygraph-public-summary-v1",
+  "record_kind": "sanitized_public_summary",
+  "phase": "phase6",
+  "source": "Selected accepted outcomes; not a rerun or the original raw experiment record",
+  "source_results_sha256": "fea2884a4f6652989e651d40ee20034b509d83eeca2fc48a55b0a2173a82cb32",
+  "source_report": {
+    "title": "PHASE6_REPORT.md",
+    "sha256": "40bb1c84ca624a7ac852d6fd787e3ed6671a193b16cf4178513602c25566d38a"
+  },
+  "selected_metrics": {
+    "status": "completed_phase6_bounded_synthetic_replay",
+    "decision_support": "Deterministic historical evidence and human review; no autonomous diagnosis"
+  },
+  "limitations": [
+    "Synthetic retrospective benchmark; no real-machinery safety or causal claims.",
+    "Previously observed test, not a fresh confirmatory holdout.",
+    "MetroPT-3 full test incomplete; Phase 5 replacement NO-GO.",
+    "No source rows, case records, private logs or runtime identifiers included."
+  ]
+}

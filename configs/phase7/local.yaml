@@ -1,0 +1,11 @@
+mode: full
+api_host: 127.0.0.1
+api_port: 18080
+dashboard_port: 18501
+case_deadline_seconds: 120
+concurrency: 1
+max_body_bytes: 16384
+requests_per_minute: 240
+allowed_hosts: [127.0.0.1, localhost, testserver, api]
+allowed_origins: []
+gallery_directory: docs/examples/phase6

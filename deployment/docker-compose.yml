@@ -1,0 +1,81 @@
+name: factorygraph-phase7-demo
+services:
+  neo4j:
+    image: neo4j:5.26.33-community
+    user: neo4j
+    environment:
+      NEO4J_AUTH_FILE: /run/secrets/neo4j_auth
+      NEO4J_server_memory_heap_initial__size: 512m
+      NEO4J_server_memory_heap_max__size: 512m
+      NEO4J_server_memory_pagecache_size: 512m
+      NEO4J_server_http_enabled: "false"
+    secrets: [neo4j_auth, neo4j_password]
+    volumes: [phase7_graph:/data]
+    networks: [internal]
+    healthcheck:
+      test: [CMD-SHELL, "cypher-shell -u neo4j -p $$(cat /run/secrets/neo4j_password) 'RETURN 1' >/dev/null 2>&1"]
+      interval: 15s
+      timeout: 10s
+      retries: 10
+    # Neo4j has deliberately no published ports.
+  bootstrap:
+    build: {context: .., dockerfile: deployment/api/Dockerfile}
+    command: [python, -m, factorygraph.phase7.bootstrap, initialize]
+    environment: &backend_env
+      FG7_CONTAINER: "1"
+      FG7_MODE: full
+      FACTORYGRAPH_NEO4J_URI: bolt://neo4j:7687
+      FG7_NEO4J_PASSWORD_FILE: /run/secrets/neo4j_password
+      FG7_OPERATOR_TOKEN_FILE: /run/secrets/operator_token
+      FG7_VIEWER_TOKEN_FILE: /run/secrets/viewer_token
+    secrets: [neo4j_password, operator_token, viewer_token]
+    volumes: &runtime_volumes
+      - ../artifacts/phase7/runtime/artifacts:/workspace/artifacts:ro
+      - ../artifacts/phase7/runtime/data:/workspace/data:ro
+      - ../artifacts/phase7/runtime/configs/phase4:/workspace/configs/phase4:ro
+      - ../artifacts/phase7/runtime/configs/phase6:/workspace/configs/phase6:ro
+      - ../artifacts/phase7/runtime/docs:/workspace/docs:ro
+      - ../artifacts/phase7/graph.json:/bootstrap/graph.json:ro
+      - ../artifacts/phase7/graph_manifest.json:/bootstrap/graph_manifest.json:ro
+    depends_on: {neo4j: {condition: service_healthy}}
+    networks: [internal]
+    read_only: true
+    tmpfs: [/tmp]
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+  api:
+    build: {context: .., dockerfile: deployment/api/Dockerfile}
+    environment: *backend_env
+    secrets: [neo4j_password, operator_token, viewer_token]
+    volumes: *runtime_volumes
+    ports: ["127.0.0.1:18080:18080"]
+    depends_on: {bootstrap: {condition: service_completed_successfully}}
+    networks: [internal]
+    read_only: true
+    tmpfs: [/tmp]
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    mem_limit: 2g
+  dashboard:
+    build: {context: .., dockerfile: deployment/dashboard/Dockerfile}
+    environment:
+      FG7_API_URL: http://api:18080
+      FG7_DASHBOARD_TOKEN_FILE: /run/secrets/operator_token
+    secrets: [operator_token]
+    ports: ["127.0.0.1:18501:18501"]
+    depends_on: {api: {condition: service_healthy}}
+    networks: [internal]
+    read_only: true
+    tmpfs: [/tmp, /home/app/.streamlit]
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    mem_limit: 1g
+networks:
+  internal: {internal: true}
+volumes:
+  phase7_graph:
+secrets:
+  operator_token: {file: "${OPERATOR_TOKEN_FILE:-../artifacts/phase7/secrets/operator.token}"}
+  viewer_token: {file: "${VIEWER_TOKEN_FILE:-../artifacts/phase7/secrets/viewer.token}"}
+  neo4j_password: {file: "${NEO4J_PASSWORD_FILE:-../artifacts/phase7/secrets/neo4j-demo.token}"}
+  neo4j_auth: {file: "${NEO4J_AUTH_FILE:-../artifacts/phase7/secrets/neo4j-auth.txt}"}

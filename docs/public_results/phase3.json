@@ -1,0 +1,28 @@
+{
+  "schema_version": "factorygraph-public-summary-v1",
+  "record_kind": "sanitized_public_summary",
+  "phase": "phase3",
+  "source": "Selected accepted outcomes; not a rerun or the original raw experiment record",
+  "source_results_sha256": "fd16278b157cdd1e8203d45fc29c7623792e2194124cf5e1cf712a2a5984aaa5",
+  "source_report": {
+    "title": "PHASE3_REPORT.md",
+    "sha256": "08cea42e2a358f1c716f8ef4bd63fb8d905e1c5fb46ddfd93c029c5dcef165bf"
+  },
+  "selected_metrics": {
+    "azure_24h_test_macro_mase": {
+      "chronos": 0.7229470697475033,
+      "persistence": 0.9919254851910148,
+      "rolling_mean": 0.7335367159582793,
+      "seasonal_naive": 1.0028950148365254
+    },
+    "daily_test_origins": 9200,
+    "machines": 100,
+    "metropt_full_test": "incomplete"
+  },
+  "limitations": [
+    "Synthetic retrospective benchmark; no real-machinery safety or causal claims.",
+    "Previously observed test, not a fresh confirmatory holdout.",
+    "MetroPT-3 full test incomplete; Phase 5 replacement NO-GO.",
+    "No source rows, case records, private logs or runtime identifiers included."
+  ]
+}

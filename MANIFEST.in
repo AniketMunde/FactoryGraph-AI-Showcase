@@ -1,0 +1,7 @@
+include requirements.lock
+include .python-version
+recursive-include configs *.yaml *.json
+recursive-include configs *.conf *.ps1
+recursive-include docs *.md *.json
+recursive-include tests *.py *.json
+recursive-include requirements *.lock

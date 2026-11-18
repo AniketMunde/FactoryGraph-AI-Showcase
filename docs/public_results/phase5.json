@@ -1,0 +1,80 @@
+{
+  "schema_version": "factorygraph-public-summary-v1",
+  "record_kind": "sanitized_public_summary",
+  "phase": "phase5",
+  "source": "Selected accepted outcomes; not a rerun or the original raw experiment record",
+  "source_results_sha256": "41094c03f459381684f995a55197e15e6cb68ca63e75371c9315fd92276c4213",
+  "source_report": {
+    "title": "PHASE5_REPORT.md",
+    "sha256": "a1eda34439b02359e56eaaa2abdb31f7ebfe3efe157dbcf8ee86cf7cc8299b2c"
+  },
+  "selected_metrics": {
+    "decision": "NO-GO for predictive replacement",
+    "primary_registered_model": "A6",
+    "approved_predictor": "Phase 1 LightGBM / A0",
+    "models": {
+      "A0": {
+        "pr_auc_average_precision": 0.9954643157815412,
+        "brier": 0.0008950338666606663,
+        "alerts": 669,
+        "detected_failure_events": 141,
+        "eligible_failure_events": 171,
+        "event_recall": 0.8245614035087719
+      },
+      "A1": {
+        "pr_auc_average_precision": 0.9981880559751602,
+        "brier": 0.0004962748362946435,
+        "alerts": 673,
+        "detected_failure_events": 143,
+        "eligible_failure_events": 171,
+        "event_recall": 0.8362573099415205
+      },
+      "A2": {
+        "pr_auc_average_precision": 0.9978370356466465,
+        "brier": 0.0005452556522907215,
+        "alerts": 689,
+        "detected_failure_events": 142,
+        "eligible_failure_events": 171,
+        "event_recall": 0.8304093567251462
+      },
+      "A3": {
+        "pr_auc_average_precision": 0.9954068992502981,
+        "brier": 0.0009367497024269133,
+        "alerts": 628,
+        "detected_failure_events": 136,
+        "eligible_failure_events": 171,
+        "event_recall": 0.7953216374269005
+      },
+      "A4": {
+        "pr_auc_average_precision": 0.9954068992502981,
+        "brier": 0.0009367497024269133,
+        "alerts": 628,
+        "detected_failure_events": 136,
+        "eligible_failure_events": 171,
+        "event_recall": 0.7953216374269005
+      },
+      "A5": {
+        "pr_auc_average_precision": 0.9983600679794535,
+        "brier": 0.00047424878066509125,
+        "alerts": 664,
+        "detected_failure_events": 134,
+        "eligible_failure_events": 171,
+        "event_recall": 0.783625730994152
+      },
+      "A6": {
+        "pr_auc_average_precision": 0.9977073513054554,
+        "brier": 0.0005450902266229603,
+        "alerts": 747,
+        "detected_failure_events": 144,
+        "eligible_failure_events": 171,
+        "event_recall": 0.8421052631578947
+      }
+    }
+  },
+  "limitations": [
+    "Synthetic retrospective benchmark; no real-machinery safety or causal claims.",
+    "Previously observed test, not a fresh confirmatory holdout.",
+    "MetroPT-3 full test incomplete; Phase 5 replacement NO-GO.",
+    "No source rows, case records, private logs or runtime identifiers included."
+  ]
+}

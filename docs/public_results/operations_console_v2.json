@@ -1,0 +1,24 @@
+{
+  "schema_version": "factorygraph-public-summary-v1",
+  "record_kind": "sanitized_public_summary",
+  "phase": "operations_console_v2",
+  "source": "Selected accepted outcomes; not a rerun or the original raw experiment record",
+  "source_results_sha256": "aff9adfdc8692708304a2e8b4ead06382b40c4672cd21c5b032ada73b9aff00b",
+  "source_report": {
+    "title": "OPERATIONS_CONSOLE_V2_REPORT.md",
+    "sha256": "090ad9eacdc5ff53eeac429ce106d55ec66efd5a4f9c45b6ade976a73899c702"
+  },
+  "selected_metrics": {
+    "status": "verified_local_native",
+    "accepted_python_tests_passed": 174,
+    "accepted_node_tests_passed": 2,
+    "public_service": false,
+    "scope": "Provisioned original native workspace; not an artifact-free test count"
+  },
+  "limitations": [
+    "Synthetic retrospective benchmark; no real-machinery safety or causal claims.",
+    "Previously observed test, not a fresh confirmatory holdout.",
+    "MetroPT-3 full test incomplete; Phase 5 replacement NO-GO.",
+    "No source rows, case records, private logs or runtime identifiers included."
+  ]
+}

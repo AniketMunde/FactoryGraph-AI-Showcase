@@ -1,0 +1,17 @@
+run_dir: artifacts/phase3/metropt
+model_dir: data/models/phase3/chronos-2
+telemetry_path: data/phase3/metropt/hourly.csv
+channels: [TP2, TP3, H1, DV_pressure, Reservoirs, Oil_temperature, Motor_current]
+context_length: 24
+horizon: 24
+origin_stride_hours: 3
+batch_origins: 16
+device: cuda
+seed: 42
+cpu_threads: 4
+max_seconds: 1800
+validation_start: '2020-03-01T00:00Z'
+test_start: '2020-04-01T00:00Z'
+test_end: '2020-09-01T00:00Z'
+scale_end: '2020-03-01T00:00Z'
+quantiles: [0.1, 0.5, 0.9]

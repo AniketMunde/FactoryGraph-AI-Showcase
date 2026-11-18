@@ -1,0 +1,466 @@
+{
+  "$defs": {
+    "AlertPolicy": {
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "enum": ["verified", "unavailable"],
+          "title": "Status",
+          "type": "string"
+        },
+        "threshold": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Threshold"
+        },
+        "cooldown_hours": {
+          "const": 24,
+          "default": 24,
+          "title": "Cooldown Hours",
+          "type": "integer"
+        },
+        "selected_on": {
+          "default": "September validation; frozen for test",
+          "title": "Selected On",
+          "type": "string"
+        },
+        "policy_sha256": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Policy Sha256"
+        },
+        "record_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Record Id"
+        },
+        "above_threshold": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Above Threshold"
+        },
+        "new_alert": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "New Alert"
+        },
+        "cooldown_suppressed": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Cooldown Suppressed"
+        },
+        "last_episode_timestamp": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Last Episode Timestamp"
+        },
+        "scope": {
+          "default": "Accepted test split; greedy episodes restart at split boundary",
+          "title": "Scope",
+          "type": "string"
+        }
+      },
+      "required": ["status"],
+      "title": "AlertPolicy",
+      "type": "object"
+    },
+    "Prediction": {
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "enum": ["verified", "unavailable"],
+          "title": "Status",
+          "type": "string"
+        },
+        "reason": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reason"
+        },
+        "machine_id": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Machine Id"
+        },
+        "snapshot": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Snapshot"
+        },
+        "horizon_hours": {
+          "const": 24,
+          "default": 24,
+          "title": "Horizon Hours",
+          "type": "integer"
+        },
+        "probability": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Probability"
+        },
+        "model_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Model Id"
+        },
+        "model_sha256": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Model Sha256"
+        },
+        "calibration_sha256": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Calibration Sha256"
+        },
+        "prediction_file_sha256": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Prediction File Sha256"
+        },
+        "policy_sha256": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Policy Sha256"
+        },
+        "dataset_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Dataset Id"
+        },
+        "split": {
+          "const": "test",
+          "default": "test",
+          "title": "Split",
+          "type": "string"
+        },
+        "mode": {
+          "const": "retrospective_replay",
+          "default": "retrospective_replay",
+          "title": "Mode",
+          "type": "string"
+        },
+        "record_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Record Id"
+        }
+      },
+      "required": ["status"],
+      "title": "Prediction",
+      "type": "object"
+    },
+    "Recommendation": {
+      "additionalProperties": false,
+      "properties": {
+        "rule_id": {
+          "title": "Rule Id",
+          "type": "string"
+        },
+        "rule_version": {
+          "const": "1.0.0",
+          "default": "1.0.0",
+          "title": "Rule Version",
+          "type": "string"
+        },
+        "trigger": {
+          "title": "Trigger",
+          "type": "string"
+        },
+        "supporting_evidence_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Supporting Evidence Ids",
+          "type": "array"
+        },
+        "basis": {
+          "enum": ["model_based", "source_backed", "general_procedural"],
+          "title": "Basis",
+          "type": "string"
+        },
+        "cutoff_exclusive": {
+          "title": "Cutoff Exclusive",
+          "type": "string"
+        },
+        "action_type": {
+          "enum": ["human_review", "data_verification"],
+          "title": "Action Type",
+          "type": "string"
+        },
+        "text": {
+          "title": "Text",
+          "type": "string"
+        },
+        "limitations": {
+          "title": "Limitations",
+          "type": "string"
+        },
+        "human_review_required": {
+          "const": true,
+          "default": true,
+          "title": "Human Review Required",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "rule_id",
+        "trigger",
+        "supporting_evidence_ids",
+        "basis",
+        "cutoff_exclusive",
+        "action_type",
+        "text",
+        "limitations"
+      ],
+      "title": "Recommendation",
+      "type": "object"
+    },
+    "Request": {
+      "additionalProperties": false,
+      "properties": {
+        "machine_id": {
+          "exclusiveMinimum": 0,
+          "title": "Machine Id",
+          "type": "integer"
+        },
+        "snapshot": {
+          "title": "Snapshot",
+          "type": "string"
+        },
+        "mode": {
+          "const": "retrospective_replay",
+          "default": "retrospective_replay",
+          "title": "Mode",
+          "type": "string"
+        }
+      },
+      "required": ["machine_id", "snapshot"],
+      "title": "Request",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "factorygraph-phase6-v1",
+      "default": "factorygraph-phase6-v1",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "case_id": {
+      "title": "Case Id",
+      "type": "string"
+    },
+    "request": {
+      "$ref": "#/$defs/Request"
+    },
+    "status": {
+      "enum": ["complete", "degraded", "evidence_only", "abstained"],
+      "title": "Status",
+      "type": "string"
+    },
+    "prediction": {
+      "$ref": "#/$defs/Prediction"
+    },
+    "alert_policy": {
+      "$ref": "#/$defs/AlertPolicy"
+    },
+    "historical_evidence": {
+      "additionalProperties": true,
+      "title": "Historical Evidence",
+      "type": "object"
+    },
+    "temporal_context": {
+      "additionalProperties": true,
+      "title": "Temporal Context",
+      "type": "object"
+    },
+    "recommendations": {
+      "items": {
+        "$ref": "#/$defs/Recommendation"
+      },
+      "title": "Recommendations",
+      "type": "array"
+    },
+    "human_review_priority": {
+      "enum": [
+        "policy_alert_review",
+        "existing_alert_review",
+        "routine_review",
+        "data_verification"
+      ],
+      "title": "Human Review Priority",
+      "type": "string"
+    },
+    "explanation": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Explanation",
+      "type": "array"
+    },
+    "data_availability": {
+      "additionalProperties": true,
+      "title": "Data Availability",
+      "type": "object"
+    },
+    "provenance": {
+      "additionalProperties": true,
+      "title": "Provenance",
+      "type": "object"
+    },
+    "limitations": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Limitations",
+      "type": "array"
+    }
+  },
+  "required": [
+    "case_id",
+    "request",
+    "status",
+    "prediction",
+    "alert_policy",
+    "historical_evidence",
+    "temporal_context",
+    "recommendations",
+    "human_review_priority",
+    "explanation",
+    "data_availability",
+    "provenance",
+    "limitations"
+  ],
+  "title": "CaseReport",
+  "type": "object"
+}
